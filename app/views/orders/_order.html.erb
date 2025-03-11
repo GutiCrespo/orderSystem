@@ -1,7 +1,14 @@
 <div id="<%= dom_id order %>">
+
   <p>
-    <strong>Status:</strong>
+    <%= order.id%>
+  </p>
+  <p>
     <%= order.status %>
   </p>
 
+  <%= button_to "Alterar Status", update_status_order_path(order),
+    method: :patch,
+    remote: true %>
+    
 </div>
