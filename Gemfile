@@ -68,4 +68,4 @@ gem "tailwindcss-rails", "~> 4.2"
 
 gem "cssbundling-rails", "~> 1.4"
 
-gem "ruby-lsp", "~> 0.23.11"
+gem "ruby-lsp", "~> 0.23.12"
